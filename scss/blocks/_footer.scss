@@ -1,0 +1,51 @@
+.footer {
+   height: 630px;
+   position: relative;
+		&__map {
+		}
+		&__info {
+         padding: 40px 0px 56px 0px;
+         text-align: center;
+         height: 270px;
+         width: 460px;
+         background-color: $main-color;
+         position: absolute;
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+		}
+		&__aadr {
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 20px;
+         color: $write;
+         margin-bottom: 36px;
+		}
+
+		&__phone {
+         color: white;
+         font-weight: 700;
+         font-size: 20px;
+         line-height: 20px;
+         img{
+            color: inherit;
+         }
+		}
+
+		&__social {
+         margin-top: 36px;
+		}
+}
+.social-item {
+   margin-right: 27px;
+   img{
+      &:hover{
+         border-radius: 50%;
+         background-color: rgb(138, 2, 2);
+      }
+   }
+   
+   &:last-child{
+      margin-right: 0;
+   }
+}

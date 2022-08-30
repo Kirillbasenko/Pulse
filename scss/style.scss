@@ -1,0 +1,27 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700&display=swap');
+@import "_mixins.scss";
+
+body{
+   font-family: "MuseoModerno";
+   position: relative;
+}
+
+.container{
+   max-width: 950px;
+   margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/advantage";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/slider";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modalConsultation";
+@import "blocks/pageup";
+@import "madia";
+

@@ -1,0 +1,33 @@
+.button {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 19px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   width: 153px;
+   height: 32px;
+   background-color: $main-color;
+   color: $write;
+   &:hover{
+      background-color: rgb(138, 2, 2);
+   }
+   &:active{
+      background-color: rgb(105, 3, 3);
+      box-shadow: 0px 0px 7px black;
+   }
+   &__main {
+         width: 303px;
+         height: 54px;
+         font-size: 16px;
+         line-height: 25px;
+            margin-bottom: 8px;
+	}
+   &__catalog{
+      width: 135px;
+      height: 44px;
+      font-size: 14px;
+      line-height: 22px;
+      border-radius: 5px;
+   }
+}

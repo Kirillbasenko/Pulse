@@ -1,0 +1,123 @@
+.promo {
+   min-height: 650px;
+   padding: 21px 0px 93px 0px;
+   background: url(../img/bg/first2.png) center center/cover no-repeat;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+		&__logo {
+         width: 250px;
+         img{
+            width: 100%;
+         }
+		}
+
+		&__official {
+         text-align: center;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 12px;
+         line-height: 12px;
+         display: flex;
+         flex-direction: column;
+         color: $write;
+         span{
+            margin-top: 7px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+         }
+		}
+
+		&__cantacts {
+         align-items: flex-end;
+         display: flex;
+         flex-direction: column;
+		}
+
+		&__phone {
+         font-style: normal;
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 18px;
+         color: $write;
+         margin-bottom: 6px;
+		}
+}
+.promo {
+		&__wrapper {
+         display: flex;
+         flex-direction: column;
+         text-align: end;
+         align-items: flex-end;
+         margin-top: 91px;
+		}
+
+		&__header {
+         font-style: normal;
+         font-weight: 700;
+         font-size: 42px;
+         line-height: 42px;
+         color: $write;
+         margin-top: 17px;
+         text-transform: uppercase;
+		}
+
+		&__subheader {font-style: normal;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 24px;
+         color: $write;
+         text-transform: uppercase;
+         margin-bottom: 60px;
+		}
+
+		&__icons {
+         display: flex;
+         width: 425px;
+         justify-content: space-between;
+         margin-bottom: 65px;
+		}
+      &__icon{
+         display: flex;
+         flex-direction: column;
+         width: 106px;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 14px;
+         color: $write;
+         text-align: center;
+         align-items: center;
+         img{
+            width: 42px;
+            margin-bottom: 20px;
+            height: 46px;
+         }
+      }
+
+		&__link {
+         font-style: normal;  
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 25px;
+         color: $write;
+         a{
+            text-transform: uppercase;
+            color: inherit;
+            text-decoration: underline;
+         }
+		}
+}
+.button {
+
+		&__main {
+         width: 303px;
+         height: 54px;
+		}
+}
+
+
+

@@ -1,0 +1,31 @@
+.carousel {
+   position: relative;
+   margin: 0 auto;
+   max-width: 950px;
+}
+
+.slide {
+   width: 750px;
+   max-height: 580px;
+   margin-top: 84px;
+}
+
+.carousel-control-prev-icon {
+   position: absolute;
+   top: 240px;
+   left: -100px;
+   width: 31px;
+   height: 50x;
+}
+.carousel-control-next-icon {
+   position: absolute;
+   top: 240px;
+   right: -100px;
+   height: 70x;
+   img{
+      display: block;
+      width: 31px;
+      
+   }
+   
+}
